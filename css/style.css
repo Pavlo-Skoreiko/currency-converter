@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    background-image: url("../images/money.jpg");
 }
 
 *,
@@ -9,6 +8,13 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    font-family: 'Noto Serif Georgian', serif;
+body {
+    font-family: 'Noto Serif Georgian', serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh ;
+    background-image: url("../images/money.jpg");
+    background-position: center;
+    background-size: cover;
 }
